@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  
+}
+
+.parent{
+    position: absolute;
+    left: 200px;
+    top: 80px;
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+#message{
+    background-image: url('../images/background.png');
+    height: 400px;
+    overflow-y: auto;
+    
+}
+.compose{
+    background-image: url('../images/background.png');
+}
+.chat__main{
+    background-image: url('../images/background.png');
+
+}
